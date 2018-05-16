@@ -3,52 +3,70 @@
 
 <head>
 
-  <meta charset="UTF-8">
-  <title>WeatherWeb</title>
+    <meta charset="UTF-8">
+    <title>WeatherWeb</title>
 
-  <!-- Bootstrap CDN -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
-  <!-- make navbar -->
-  <nav class="navbar navbar-default">
+    <!-- make navbar -->
+    <nav class="navbar navbar-default">
         <div class="container-fluid">
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-            
-            <a class="navbar-brand"  style="background-color: teal" href="#">L'Attitude</a>
-          </div>
-    
-        
-          <div>
-          <ul class="nav navbar-nav navbar-right">
-                <li><a href="comparison/index.html">Comparison</a></li>
-                <li><a href="data/index.html">Data</a></li>
-                <li class="dropdown">
-          
-                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                  Plots
-                  <span class="caret"></span>
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                    aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
                 </button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                  <li><a href="visualizations/viz1.html">Max Temp</a></li>
-                  <li><a href="visualizations/viz2.html">Humidity</a></li>
-                  <li><a href="visualizations/viz3.html">Cloudiness</a></li>
-                  <li><a href="visualizations/viz4.html">Wind Speed</a></li>
-                  <li role="separator" class="divider"></li>
-                  <li><a href="#">Separated link</a></li>
+
+                <a class="navbar-brand" style="background-color: teal" href="https://frimfram8.github.io">L'Attitude</a>
+            </div>
+
+
+            <div>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="comparison/index.html">Comparison</a>
+                    </li>
+                    <li>
+                        <a href="data/index.html">Data</a>
+                    </li>
+                    <li class="dropdown">
+
+                        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="true">
+                            Plots
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                            <li>
+                                <a href="visualizations/viz1.html">Max Temp</a>
+                            </li>
+                            <li>
+                                <a href="visualizations/viz2.html">Humidity</a>
+                            </li>
+                            <li>
+                                <a href="visualizations/viz3.html">Cloudiness</a>
+                            </li>
+                            <li>
+                                <a href="visualizations/viz4.html">Wind Speed</a>
+                            </li>
+                            <li role="separator" class="divider"></li>
+                            <li>
+                                <a href="#">Separated link</a>
+                            </li>
+                        </ul>
+                    </li>
                 </ul>
-              </div>
-              
+            </div>
+
             <!-- </form>
 
             <ul class="nav navbar-nav navbar-right">
@@ -67,55 +85,59 @@
               </li>
             </ul>
           </div>
-          <!-- /.navbar-collapse -->
-        <!-- </div> -->
-       
-      </nav>
-  <div class="container">
+          <! /.navbar-collapse -->
+            <!-- </div> -->
+
+    </nav>
+    <div class="container">
 
 
 
-    <!-- Row 1 -->
-    <div class="row">
-      <div class="col-sm-8">
-        <h1>
-          <font color="teal">Summary: Latitude vs. X</font></h1>
-        <hr>
-        <p>A fascinating project in which all weather-obssessed programmers find nirvana. The project also involved scintillating wrapping of text around an image.<img src="output_data/Fig1.png" alt="City Latitude vs Max Temp" align="left" style="width:200px;height:200px;"></p>
-        
-      </div>
-      <div class="col-sm-4">
-        <h2><font color="teal">Visualizations<font/></h2>
-        <hr>
-        <div class="row"> 
-          <div class="column">
-           <img src="output_data/Fig1.png">
-           <img src="output_data/Fig2.png">
-          </div>
-          <div class="column">
-            <img src="output_data/Fig3.png">
-            <img src="output_data/Fig4.png">
-          </div>
-   
-  </div>
-      </div>
-    </div>
+        <!-- Row 1 -->
+        <div class="row">
+            <div class="col-sm-8">
+                <h1>
+                    <font color="teal">Summary: Latitude vs. X</font>
+                </h1>
+                <hr>
+                <p>A fascinating project in which all weather-obssessed programmers find nirvana. The project also involved
+                    scintillating wrapping of text around an image.
+                    <img src="output_data/Fig1.png" alt="City Latitude vs Max Temp" align="left" style="width:200px;height:200px;">
+                </p>
 
-    <!-- footer -->
-    
+            </div>
+            <div class="col-sm-4">
+                <h2>
+                    <font color="teal">Visualizations
+                        <font/>
+                </h2>
+                <hr>
+                <div class="row">
+                    <div class="column">
+                        <img src="output_data/Fig1.png" alt="Max Temp">
+                        <img src="output_data/Fig2.png" alt="Humidity">
+                    </div>
+                    <div class="column">
+                        <img src="output_data/Fig3.png" alt="Cloudiness">
+                        <img src="output_data/Fig4.png" alt="Wind Speed">
+                    </div>
 
-<div class="footer">
-  <p>Struggle Bus Productions, 2018</p>
-</div>
- 
+                </div>
+
+            </div>
+
+            <!-- footer -->
 
 
-<!--latest jQuery-->
+            <div class="footer">
+                <p>Struggle Bus Productions, 2018</p>
+            </div>
 
-<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-lZFHibXzMHo3GGeehn1hudTAP3Sc0uKXBXAzHX1sjtk=" crossorigin="anonymous"></script>
+            <!-- jQuery library -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
- 
+            <!-- Latest compiled JavaScript -->
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 
 </html>
-
